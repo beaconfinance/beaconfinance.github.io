@@ -7,3 +7,13 @@
     font-family: roboto;
     font-weight: 300;
 }
+
+@media screen and (max-width: 576px) {
+    .a002 {
+        font-size: 20px;
+    }
+
+    .a001 {
+        font-size: 16px;
+    }
+}
