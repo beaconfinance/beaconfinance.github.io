@@ -12,6 +12,10 @@
     background-color: #002884;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 576px) {
     .a002 {
         font-size: 20px;
@@ -20,6 +24,12 @@
     .a001 {
         font-size: 16px;
     }
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
 }
 
 *
