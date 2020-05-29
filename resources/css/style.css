@@ -8,6 +8,10 @@
     font-weight: 300;
 }
 
+.a003 {
+    background-color: #002884;
+}
+
 @media screen and (max-width: 576px) {
     .a002 {
         font-size: 20px;
@@ -17,3 +21,20 @@
         font-size: 16px;
     }
 }
+
+*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
