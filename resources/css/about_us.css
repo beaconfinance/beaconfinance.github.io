@@ -41,4 +41,15 @@
     margin-right: .75rem;
     margin-left: .75rem;
   }
-  
+
+.heros {
+    background-image: url(../images/beacon_team.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+}
+
+ .b001 {     
+     font-family: roboto;
+     font-weight: 300;
+ }
