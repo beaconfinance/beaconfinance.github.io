@@ -53,3 +53,9 @@
      font-family: roboto;
      font-weight: 300;
  }
+
+ @media screen and (max-width: 400px) {
+    .heros {
+        height: 1000px;
+    }
+}
